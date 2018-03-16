@@ -31,3 +31,19 @@ git remote add origin https://github.com/shenzhoudance/movie_review.git
 git push -u origin master
 ```
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fped3zehuwj31ka0ycage.jpg)
+
+## 第2部分 构建 scaffold-Movie 分支
+```
+git checkout -b scaffold-Movie
+rails g scaffold Movie title:string description:text movie_length:string director:string rating:string
+rake db:migrate
+rails server
+http://localhost:3000/
+```
+![image](https://ws3.sinaimg.cn/large/006tNc79gy1fpedoxavwrj311k0ccq3w.jpg)
+```
+git status
+git add .
+git commit -m "scaffold-Movie"
+git push origin scaffold-Movie
+```
