@@ -50,3 +50,12 @@ git push origin scaffold-Movie
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpedu0pxzoj31kw0qi0yp.jpg)
 ![image](https://ws4.sinaimg.cn/large/006tNc79gy1fpeduj0z2uj317y0uwtdp.jpg)
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpedur92znj318w0wc0zb.jpg)
+
+## 第3部分 构建 gem-devise 分支
+```
+git checkout -b gem-devise
+https://rubygems.org/
+gem 'devise', '~> 4.4', '>= 4.4.2'
+bundle install
+```
+![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpee3bl2goj31bs0swthp.jpg)
