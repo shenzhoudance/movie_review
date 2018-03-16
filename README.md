@@ -1,24 +1,25 @@
-# README
+```
+cd workspace
+rails new movie_review
+cd movie_review
+```
+![image](https://ws1.sinaimg.cn/large/006tNc79gy1fped2gk5wvj31kw0tjwki.jpg)
+```
+git init
+git status
+git add .
+git commit -m "initial commit"
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+arom .
+rails server
+```
+http://localhost:3000/
+![image](https://ws1.sinaimg.cn/large/006tNc79gy1fped0wpmnkj31cm10k1kx.jpg)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+git remote add origin https://github.com/shenzhoudance/movie_review.git
+git push -u origin master
+```
+![image](https://ws1.sinaimg.cn/large/006tNc79gy1fped3zehuwj31ka0ycage.jpg)
