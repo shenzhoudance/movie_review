@@ -59,3 +59,12 @@ gem 'devise', '~> 4.4', '>= 4.4.2'
 bundle install
 ```
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpee3bl2goj31bs0swthp.jpg)
+```
+rails generate devise:install
+rails g devise:views
+rails g devise User
+rake db:migrate
+rails server
+http://localhost:3000/users/sign_up
+```
+![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpeev3hobjj312g0kmabj.jpg)
