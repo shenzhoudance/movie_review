@@ -85,6 +85,7 @@ rake db:migrate
 
 ```
 rails c
+@movie = Movie.first
 exit
 ```
 ![image](https://ws3.sinaimg.cn/large/006tNc79gy1fpefvhq4b8j315o05qdh8.jpg)
@@ -103,3 +104,26 @@ rails server
 http://localhost:3000/movies/new
 ```
 ![image](https://ws2.sinaimg.cn/large/006tKfTcly1fpeg2p9qvaj30y80oa400.jpg)
+```
+rails c
+@movie = Movie.first
+@movie = Movie.last
+@movies.each do |movie|
+movie.user_id = 1
+movie.save
+end
+---
+@user = User.first
+@movie = Movies.find(1)
+@movie.user = @user
+@movie.user_id = 1
+@movie.save
+@movie
+---
+@movie = Movie.first
+@movie.user_id = 1
+@movie.save
+@movie
+exit
+```
+![image](https://ws3.sinaimg.cn/large/006tKfTcgy1fpeh1g49haj31kw0seqdu.jpg)
