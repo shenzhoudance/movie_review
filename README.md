@@ -73,3 +73,12 @@ rails server
 http://localhost:3000/users/sign_up
 ```
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpeev3hobjj312g0kmabj.jpg)
+![image](https://ws3.sinaimg.cn/large/006tNc79gy1fpef8dv6dkj313a0fsjsy.jpg)
+
+## 第3部分 构建 user_id_to_movies 分支
+```
+git checkout -b user_id_to_movies
+rails g migration add_user_id_to_movies user_id:integer
+rake db:migrate
+```
+![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpefj7qk6gj31cq0t8jwo.jpg)
