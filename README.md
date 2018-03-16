@@ -61,12 +61,12 @@ bundle install
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpee3bl2goj31bs0swthp.jpg)
 ```
 rails generate devise:install
-rails g devise:views
 ```
 ![image](https://ws2.sinaimg.cn/large/006tNc79gy1fpef061y3rj31kw0l111e.jpg)
 ![image](https://ws2.sinaimg.cn/large/006tNc79gy1fpef176cafj31700lkjuu.jpg)
 ![image](https://ws4.sinaimg.cn/large/006tNc79gy1fpef1sfoo5j31kw0fa78h.jpg)
 ```
+rails g devise:views
 rails g devise User
 rake db:migrate
 rails server
