@@ -8,6 +8,7 @@
 cd workspace
 rails new movie_review
 cd movie_review
+arom .
 ```
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fped2gk5wvj31kw0tjwki.jpg)
 
@@ -20,7 +21,6 @@ git commit -m "initial commit"
 ```
 ### 1.3 查看 专案 效果
 ```
-arom .
 rails server
 http://localhost:3000/
 ```
