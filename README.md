@@ -75,7 +75,7 @@ http://localhost:3000/users/sign_up
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpeev3hobjj312g0kmabj.jpg)
 ![image](https://ws3.sinaimg.cn/large/006tNc79gy1fpef8dv6dkj313a0fsjsy.jpg)
 
-## 第3部分 构建 user_id_to_movies 分支
+## 第4部分 构建 user_id_to_movies 分支
 ```
 git checkout -b user_id_to_movies
 rails g migration add_user_id_to_movies user_id:integer
@@ -127,3 +127,14 @@ end
 exit
 ```
 ![image](https://ws3.sinaimg.cn/large/006tKfTcgy1fpeh1g49haj31kw0seqdu.jpg)
+
+## 第5部分 构建 gem-paperclip 分支
+
+```
+git checkout -b gem-paperclip
+https://rubygems.org/
+gem 'paperclip', '~> 4.2.0'
+bundle install
+```
+
+rails g paperclip movie image
