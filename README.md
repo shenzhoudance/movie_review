@@ -82,3 +82,24 @@ rails g migration add_user_id_to_movies user_id:integer
 rake db:migrate
 ```
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fpefj7qk6gj31cq0t8jwo.jpg)
+
+```
+rails c
+exit
+```
+![image](https://ws3.sinaimg.cn/large/006tNc79gy1fpefvhq4b8j315o05qdh8.jpg)
+```
+添加用户关系
+current_user.movies.build
+belongs_to :user
+has_many :movies
+```
+![image](https://ws4.sinaimg.cn/large/006tNc79ly1fpefzy8y56j31kw0eyq6o.jpg)
+![image](https://ws2.sinaimg.cn/large/006tNc79ly1fpefzyd9k8j31gg0lqn1l.jpg)
+![image](https://ws4.sinaimg.cn/large/006tKfTcly1fpeg1ao3cwj30z40km0vb.jpg)
+
+```
+rails server
+http://localhost:3000/movies/new
+```
+![image](https://ws2.sinaimg.cn/large/006tKfTcly1fpeg2p9qvaj30y80oa400.jpg)
