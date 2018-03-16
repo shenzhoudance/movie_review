@@ -1,3 +1,6 @@
+
+才华横溢 movie_review 教学案例 5
+
 ```
 cd workspace
 rails new movie_review
@@ -14,8 +17,9 @@ git commit -m "initial commit"
 ```
 arom .
 rails server
-```
 http://localhost:3000/
+```
+
 ![image](https://ws1.sinaimg.cn/large/006tNc79gy1fped0wpmnkj31cm10k1kx.jpg)
 
 ```
